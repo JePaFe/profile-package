@@ -26,7 +26,7 @@ class ProfileServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'profile');
         $this->publishes([
-            __DIR__ . '/../resources/views' => resource_path('views/vendor/users'),
+            __DIR__ . '/../resources/views' => resource_path('views/vendor/profile'),
         ], 'profile-views');
     }
 }
