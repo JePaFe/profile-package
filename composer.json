@@ -1,0 +1,26 @@
+{
+    "name": "jepafe/profile",
+    "description": "A profile package for edit user data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean Paul Ferreira",
+            "email": "jeanpaul@jepafe.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JePaFe\\Profile\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JePaFe\\Profile\\ProfileServiceProvider"
+            ]
+        }
+    }
+}
